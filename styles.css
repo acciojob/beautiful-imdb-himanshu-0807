@@ -1,2 +1,21 @@
+body {
+    background-color: #111111;
+    margin: 0;
+}
 
-/* Your CSS Code here. */
+.moviePic {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.5;
+    object-fit: cover;
+}
+
+.movieDetail {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    color: #f5c518;
+    margin: 0;
+}
